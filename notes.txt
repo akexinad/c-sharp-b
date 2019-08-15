@@ -32,8 +32,7 @@ NAMESPACES
 ASSEMBLIES
     - An assembly is a container for related namespaces.
     - It is physically a file on the disk as an exe. - Executable - or a dll - Dynamically Linked Library.
-
-- So when you compile an app, it is compile a bunch of these assemblies.
+    - MORE PRECISELY, an ASSEMBLY is a single unit of deployment of .NET applications. (A collection of dll's and a exe that executes these dll's).
 
 
 
@@ -46,3 +45,29 @@ THE USING STATMENTS
 - System.Linq: Used to work with data.
 - System.Text: Used to work with text and coding.
 - System.Threading.Tasks: Used to create multithreaded apps.
+
+
+
+
+VARIABLES AND CONSTANTS
+=======================
+
+- VARIABLE = A name given to a storage location in memory. Should be decalared in camelCase
+- CONSTANT = An immutable value. Should be declared in PascalCase.
+
+
+
+
+OVERFLOWING
+===========
+
+- When you exceed the boundary of the byte data type.
+    - Ex. if you declare a number of type byte equal to its max which is 255 and add 1, the compiler will return 0.
+
+
+
+
+SCOPE
+=====
+
+- Where a variable/constant has meaning and is accessible.
