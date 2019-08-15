@@ -1,0 +1,48 @@
+CLR FUNDAMENTALS
+================
+
+- CLR = Common Language Runtime.
+- It is a application that sits in memory and translates IL code, Intermediate Language, into Native Code that the machine's hardware can understand.
+- The reason for this Intermediate Langauge is so C# can be understood by any machine regardless of the computer architecture.
+- The process of compiling IL code into Native is called JIT, Just-in-Time Compilation.
+- Therefore, with CLR, you can run C# on any machine, regardless of its architecture.
+
+
+
+
+ARCHITECTURE OF .NET APPLICATIONS
+=================================
+
+- When building an application with C#, at a high level its a bunch of classes that collaborate with each other at runtime.
+
+- WHAT IS A CLASS?
+    - A class is a container that holds DATA, aka ATTRIBUTES, and functions, aka, METHODS.
+    - METHODS HAVE BEHAVIOUR, they execute code. They do things for us.
+    - DATA REPRESENTS THE STATE OF THE APPLICATION.
+
+- So in a real world app we 1000's of these classes interacting.
+- To organise all these classes we use...
+
+NAMESPACES
+    - A conatiner for related classes.
+    - There can be namespaces for working with databases, graphics, images, security.
+
+- And as the quantity of namespaces grow, we then use...
+
+ASSEMBLIES
+    - An assembly is a container for related namespaces.
+    - It is physically a file on the disk as an exe. - Executable - or a dll - Dynamically Linked Library.
+
+- So when you compile an app, it is compile a bunch of these assemblies.
+
+
+
+
+THE USING STATMENTS
+===================
+
+- System: A namespace in .NET with all the utility classes and primitive types.
+- System.Collections.Generic: Used to work with lists and collections.
+- System.Linq: Used to work with data.
+- System.Text: Used to work with text and coding.
+- System.Threading.Tasks: Used to create multithreaded apps.
