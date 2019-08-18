@@ -76,6 +76,6 @@ namespace CSharpB
             string u = "true";
             bool p = Convert.ToBoolean(u);
             Console.WriteLine(p);
+        }
     }
-}
 }
