@@ -5,6 +5,13 @@ using System;
 namespace Section4
 {
 
+    public enum ShippingMethod
+    {
+        AusPost = 1,
+        DHL = 2,
+        FedEx = 3
+    }
+
 
     class Program
     {
@@ -78,6 +85,46 @@ namespace Section4
 
 
             var names = new string[3] { "fellini", "benigni", "pasolini" };
+
+
+
+
+            // STRINGS
+            // =======
+
+            // Strings in C# are immutable.
+
+            var joinedNames = string.Join(", ", names);
+
+            Console.WriteLine(joinedNames);
+
+
+
+
+            // ENUMS
+            // =====
+
+            // Is a set of name/value pairs (constants)
+            // Like a JS object or a ruby hash.
+            // Enums are defined at the namespace level.
+
+
+            // See the enum at the very top of the file.
+            var firstOption = ShippingMethod.AusPost;
+            Console.WriteLine(firstOption);
+
+            // If you want the numeric value of the enum, you can cast the variable.
+            Console.WriteLine((int)firstOption);
+
+            // For example, if you only recieved the shipping id and need to find out the method,
+            // You can use the enum to cast the method id...
+            var methodId = 3;
+            Console.WriteLine((ShippingMethod)methodId);
+
+            // Converting or PARSING a string into an enum name/value.
+            var methodName = "FedEx";
+            var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod), methodName);
+            Console.WriteLine(shippingMethod);
         }
     }
 }
