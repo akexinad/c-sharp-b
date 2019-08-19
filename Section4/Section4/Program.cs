@@ -68,6 +68,16 @@ namespace Section4
             // Reminder, when you declare new, you are telling the compiler to allocate memory for you new object.
 
             int[] numbers = new int[5] { 1, 2, 3, 4, 5 };
+
+            // An array of booleans are initially flagged to false.
+
+            var flags = new bool[3];
+            Console.WriteLine(flags[0]);
+            Console.WriteLine(flags[1]);
+            Console.WriteLine(flags[2]);
+
+
+            var names = new string[3] { "fellini", "benigni", "pasolini" };
         }
     }
 }
