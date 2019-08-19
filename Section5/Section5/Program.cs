@@ -56,29 +56,97 @@ namespace Section5
 
             // EXERCISE 4
 
-            Console.Write("Your Speed: ");
-            var speed = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Your Speed: ");
+            //var speed = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("The Speed Limit: ");
-            var speedLimit = Convert.ToInt32(Console.ReadLine());
+            ////Console.Write("The Speed Limit: ");
+            //var speedLimit = Convert.ToInt32(Console.ReadLine());
 
-            if (speed < speedLimit)
+            //if (speed < speedLimit)
+            //{
+            //    Console.WriteLine("Ok");
+            //}
+            //else
+            //{
+            //    var kmPerDemeritPoint = 5;
+            //    var demeritPoints = (speed - speedLimit) / kmPerDemeritPoint;
+            //    if (demeritPoints >= 12)
+            //    {
+            //        Console.WriteLine("SUSPENDED");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"You have lost { demeritPoints } demerit points.");
+            //    }
+            //}
+
+            Console.Clear();
+
+
+
+            // THE RANDOM CLASS
+            // ================
+
+            var random = new Random();
+
+            const int passwordLength = 10;
+
+            char[] buffer = new char[passwordLength];
+
+            for (int i = 0; i < passwordLength; i++)
+                buffer[i] = (char)('a' + random.Next(0, 26));
+
+            var password = new string(buffer);
+
+            Console.WriteLine(password);
+
+
+
+
+            // 43. EXERCISES
+            // =============
+
+
+            // EXERCISE 1
+            // ==========
+
+            var count = 0;
+
+            for (int i = 0; i <= 100; i++)
             {
-                Console.WriteLine("Ok");
+                if (i % 3 == 0)
+                {
+                    count++;
+                }
             }
-            else
+
+            Console.WriteLine(count);
+
+
+
+            // EXERCISE 2
+            // ==========
+
+            var sum = 0;
+
+            Console.Write("Enter a number");
+            var input = Console.ReadLine();
+
+            while (input != "ok")
             {
-                var kmPerDemeritPoint = 5;
-                var demeritPoints = (speed - speedLimit) / kmPerDemeritPoint;
-                if (demeritPoints >= 12)
-                {
-                    Console.WriteLine("SUSPENDED");
-                }
-                else
-                {
-                    Console.WriteLine($"You have lost { demeritPoints } demerit points.");
-                }
+                var numInput = Convert.ToInt32(input);
+                sum += numInput;
+                Console.Write("Enter Another Number");
+                input = Console.ReadLine();
             }
+
+            Console.WriteLine(sum);
+
+
+            // EXERCISE 3
+            // ==========
+
+            Console.Write("")
         }
     }
 }
