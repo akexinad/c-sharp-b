@@ -17,6 +17,7 @@ namespace Section4
     {
         static void Main(string[] args)
         {
+            // ===========
             // 27. CLASSES
             // ===========
 
@@ -57,6 +58,7 @@ namespace Section4
 
 
 
+            // =======
             // STRUCTS
             // =======
 
@@ -66,7 +68,7 @@ namespace Section4
 
 
 
-
+            // ======
             // ARRAYS
             // ======
 
@@ -90,6 +92,7 @@ namespace Section4
 
 
 
+            // =======
             // STRINGS
             // =======
 
@@ -102,6 +105,7 @@ namespace Section4
 
 
 
+            // =====
             // ENUMS
             // =====
 
@@ -131,6 +135,7 @@ namespace Section4
             Console.Clear();
 
 
+            // ===============================
             // REFERENCE TYPES AND VALUE TYPES
             // ===============================
 
@@ -179,6 +184,8 @@ namespace Section4
             // And the same goes for arrayTwo. So when you make changes from arrayTwo, you see the changes in arrayOne.
 
             Console.WriteLine(string.Format("arrayOne[0] = {0}, arrayTwo[0] = {1}", arrayOne[0], arrayTwo[0]));
+
+
         }
     }
 }
