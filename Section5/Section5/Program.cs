@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Section5
 {
@@ -124,9 +125,11 @@ namespace Section5
 
 
 
+
             // EXERCISE 2
             // ==========
 
+            /*
             var sum = 0;
 
             Console.Write("Enter a number");
@@ -141,12 +144,85 @@ namespace Section5
             }
 
             Console.WriteLine(sum);
+            */
+
+
 
 
             // EXERCISE 3
             // ==========
 
-            Console.Write("")
+            /*
+            Console.Write("Enter a number: ");
+            var input3 = Console.ReadLine();
+            var num = Convert.ToInt32(input3);
+            var result = 1;
+            while (num >= 1)
+            {
+                result *= num;
+                num--;
+            }
+
+
+            Console.WriteLine($"Factorial is { result }");
+            */
+
+
+
+            // EXERCISE 4
+            // ==========
+
+
+            /*
+            // NOTE that the random class has already been instantiated.
+            var randomInt = random.Next(1, 10);
+
+            Console.Write("Guess a number between 1 and 10: ");
+            var guess = Convert.ToInt32(Console.ReadLine());
+
+            var guesses = 4;
+
+            while (guesses > 1)
+            {
+                if (guess == randomInt)
+                {
+                    Console.WriteLine("YOU GOT IT!!");
+                    return;
+                } else
+                {
+                    Console.Write("Guess again...");
+                    guess = Convert.ToInt32(Console.ReadLine());
+                }
+
+                guesses--;
+            }
+
+            Console.WriteLine($"The number was { randomInt }, dickhead");
+            */
+
+
+
+
+            // EXERCISE 5
+            // ==========
+
+            /*
+            Console.Write("Enter some series of numbers, I will return the biggest number: ");
+            var numbers = Console.ReadLine();
+
+            var result = 0;
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                var num = Int32.Parse(numbers[i].ToString());
+                if (num > result)
+                {
+                    result = num;
+                }
+            }
+
+            Console.WriteLine(result);
+            */
         }
     }
 }
