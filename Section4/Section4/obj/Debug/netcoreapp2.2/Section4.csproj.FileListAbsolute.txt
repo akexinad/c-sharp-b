@@ -1,0 +1,11 @@
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section4\Section4\obj\Debug\netcoreapp2.2\Section4.csprojAssemblyReference.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section4\Section4\obj\Debug\netcoreapp2.2\Section4.csproj.CoreCompileInputs.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section4\Section4\obj\Debug\netcoreapp2.2\Section4.AssemblyInfoInputs.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section4\Section4\obj\Debug\netcoreapp2.2\Section4.AssemblyInfo.cs
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section4\Section4\bin\Debug\netcoreapp2.2\Section4.deps.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section4\Section4\bin\Debug\netcoreapp2.2\Section4.runtimeconfig.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section4\Section4\bin\Debug\netcoreapp2.2\Section4.runtimeconfig.dev.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section4\Section4\bin\Debug\netcoreapp2.2\Section4.dll
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section4\Section4\bin\Debug\netcoreapp2.2\Section4.pdb
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section4\Section4\obj\Debug\netcoreapp2.2\Section4.dll
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section4\Section4\obj\Debug\netcoreapp2.2\Section4.pdb
