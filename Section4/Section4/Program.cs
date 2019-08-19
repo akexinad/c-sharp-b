@@ -47,6 +47,27 @@ namespace Section4
             person.LastName = "fellini";
             person.Introduce();
 
+
+
+
+            // STRUCTS
+            // =======
+
+            // Structs are basically lightweight objects/classes and should be used if you want to create a realtively small object with little data.
+            // 99% of the time, you will end up using classes anyway.
+
+
+
+
+            // ARRAYS
+            // ======
+
+            // An array is a data structure to store a collection of variables of the same type.
+            // Remember that in C#, everything is a class so you need to instantiate an array.
+
+            // Reminder, when you declare new, you are telling the compiler to allocate memory for you new object.
+
+            int[] numbers = new int[5] { 1, 2, 3, 4, 5 };
         }
     }
 }
