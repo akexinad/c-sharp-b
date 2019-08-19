@@ -62,6 +62,7 @@ namespace Section4
 
             // Structs are basically lightweight objects/classes and should be used if you want to create a realtively small object with little data.
             // 99% of the time, you will end up using classes anyway.
+            // ALL PRIMITIVE TYPES ARE STRUCTURES.
 
 
 
@@ -125,6 +126,59 @@ namespace Section4
             var methodName = "FedEx";
             var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod), methodName);
             Console.WriteLine(shippingMethod);
+
+
+            Console.Clear();
+
+
+            // REFERENCE TYPES AND VALUE TYPES
+            // ===============================
+
+
+            // STRUCTURES = VALUE TYPES
+
+            // Structures are allocated memory on the stack.
+            // When the structure is not in scope, it is immediately removed by the runtime/CLR.
+
+            // CLASSES = REFERENCE TYPES
+
+            // Memory allocation is done manually when you use `new` operator.
+            // It is allocated to the part of memory called the HEAP.
+            // When a class is out of scope,  it continues to live in the HEAP for a little while.
+            // Then runtime/CLR uses a process called Garbage Collection to remove these classes from the HEAP.
+
+            var integer = 10;
+
+            var integerCopy = integer;
+
+            integerCopy++;
+
+            // The value of integer remains 10. Why?
+            // So as we saw, all primitive types are STRUCTURES,
+            // which means that they are automatically given a place in memory by the CLR.
+            // So when you make a copy of a primitive type, the run time creates another
+            // spot in memory for the copy.
+
+            Console.WriteLine(string.Format("Original Integer: {0}, Copy of the integer: {1}", integer, integerCopy));
+
+            // THIS IS WHY THEY ARE CALLED VALUE, BECAUSE THEIR VALUES ARE COPIED, NOT THE ACTUAL OBJECT.
+
+
+            // Now lets look at REFERENCE TYPES
+
+            var arrayOne = new int[3] { 1, 2, 3 };
+            var arrayTwo = arrayOne;
+
+            arrayTwo[0] = 0;
+
+            // arrayOne[0] will also be 0.
+
+            // When you instantiate the array class, it is allocated memory in the HEAP and it is given an address.
+            // The arrayOne variable refers to this address for the array values.
+            // So therefore arrayOne POINTS TO or REFERENCES to the object in the HEAP.
+            // And the same goes for arrayTwo. So when you make changes from arrayTwo, you see the changes in arrayOne.
+
+            Console.WriteLine(string.Format("arrayOne[0] = {0}, arrayTwo[0] = {1}", arrayOne[0], arrayTwo[0]));
         }
     }
 }

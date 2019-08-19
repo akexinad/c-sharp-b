@@ -6,6 +6,7 @@ namespace Section4.Human
     {
         public string FirstName;
         public string LastName;
+        public int Age;
 
         public void Introduce()
         {
