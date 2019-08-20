@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Section6Arrays
 {
@@ -39,6 +40,70 @@ namespace Section6Arrays
             {
                 Console.WriteLine(item);
             }
+
+
+
+
+            // LISTS
+            // =====
+
+            // YES, there is a difference between arrays and lists.
+            // You can use lists when you do not know the length of the
+            // data structure to begin with.
+
+
+            var numberList = new List<int>() { 6, 1, 2, 3, 4, 5, 6, 7 };
+
+            // The list has an add method.
+            numberList.Add(45);
+
+            numberList.AddRange(new int[3] { 78, 101, 98 });
+
+            foreach (var number in numberList)
+            {
+                Console.WriteLine(number);
+            }
+
+            Console.WriteLine(numberList.IndexOf(6));
+
+            // If you want to start your search from the end of the list.
+            Console.WriteLine(numberList.LastIndexOf(6));
+
+            Console.WriteLine(numberList.Count);
+
+
+            // NOTE: In C# you are not allowed to modify a collection inside a foreach block.
+            // You need to use a for loop
+
+            /*
+
+            THIS CANNOT BE DONE.
+              
+            foreach (var item in numberList)
+            {
+                if (item == 6)
+                    numberList.Remove(item);
+            }
+            */
+            Console.Clear();
+
+            for (var i = 0; i < numberList.Count; i++)
+            {
+                if (numberList[i] == 6)
+                {
+                    numberList.Remove(numberList[i]);
+                }
+            }
+
+            foreach (var number in numberList)
+            {
+                Console.WriteLine(number);
+            }
+
+
+            // Remove all elements from the list
+            numberList.Clear();
+
         }
     }
 }
