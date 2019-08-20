@@ -1,0 +1,11 @@
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section7DateTime\Section7DateTime\bin\Debug\netcoreapp2.2\Section7DateTime.deps.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section7DateTime\Section7DateTime\bin\Debug\netcoreapp2.2\Section7DateTime.runtimeconfig.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section7DateTime\Section7DateTime\bin\Debug\netcoreapp2.2\Section7DateTime.runtimeconfig.dev.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section7DateTime\Section7DateTime\bin\Debug\netcoreapp2.2\Section7DateTime.dll
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section7DateTime\Section7DateTime\bin\Debug\netcoreapp2.2\Section7DateTime.pdb
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section7DateTime\Section7DateTime\obj\Debug\netcoreapp2.2\Section7DateTime.csprojAssemblyReference.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section7DateTime\Section7DateTime\obj\Debug\netcoreapp2.2\Section7DateTime.csproj.CoreCompileInputs.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section7DateTime\Section7DateTime\obj\Debug\netcoreapp2.2\Section7DateTime.AssemblyInfoInputs.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section7DateTime\Section7DateTime\obj\Debug\netcoreapp2.2\Section7DateTime.AssemblyInfo.cs
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section7DateTime\Section7DateTime\obj\Debug\netcoreapp2.2\Section7DateTime.dll
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section7DateTime\Section7DateTime\obj\Debug\netcoreapp2.2\Section7DateTime.pdb
