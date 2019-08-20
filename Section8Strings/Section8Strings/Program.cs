@@ -56,6 +56,8 @@ namespace Section8Strings
             Console.Clear();
 
 
+
+
             // STRING BUILDER
             // ==============
 
