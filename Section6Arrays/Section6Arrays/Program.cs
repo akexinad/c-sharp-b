@@ -7,6 +7,9 @@ namespace Section6Arrays
     {
         static void Main(string[] args)
         {
+            // ARRAYS
+            // ======
+
             // An array represents a fixed number of variables of a particular type.
 
             // MULTIDIMENSIONAL ARRAYS
@@ -85,7 +88,6 @@ namespace Section6Arrays
                     numberList.Remove(item);
             }
             */
-            Console.Clear();
 
             for (var i = 0; i < numberList.Count; i++)
             {
@@ -103,6 +105,15 @@ namespace Section6Arrays
 
             // Remove all elements from the list
             numberList.Clear();
+
+
+
+
+            Console.Clear();
+
+            //Exercises.ExerciseOne();
+            //Exercises.ExerciseTwo();
+            Exercises.ExerciseThree();
 
         }
     }
