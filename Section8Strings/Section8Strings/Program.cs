@@ -53,7 +53,6 @@ namespace Section8Strings
 
 
 
-            Console.Clear();
 
 
 
@@ -81,6 +80,22 @@ namespace Section8Strings
 
             Console.WriteLine(builder);
 
+
+
+            Console.Clear();
+
+
+
+            // PROCEDURAL PROGRAMMING
+            // ======================
+
+            /*
+             * - A programming paradigm based on procedure calls.
+             * - RULE 1
+                - You should always separate the code that works WITH the console from the code that IMPLEMENTS logic.
+             */
+
+            
         }
     }
 }
