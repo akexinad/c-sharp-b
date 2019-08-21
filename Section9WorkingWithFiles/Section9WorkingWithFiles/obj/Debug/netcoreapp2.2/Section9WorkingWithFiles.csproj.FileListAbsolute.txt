@@ -1,0 +1,11 @@
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section9WorkingWithFiles\Section9WorkingWithFiles\obj\Debug\netcoreapp2.2\Section9WorkingWithFiles.csprojAssemblyReference.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section9WorkingWithFiles\Section9WorkingWithFiles\obj\Debug\netcoreapp2.2\Section9WorkingWithFiles.csproj.CoreCompileInputs.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section9WorkingWithFiles\Section9WorkingWithFiles\obj\Debug\netcoreapp2.2\Section9WorkingWithFiles.AssemblyInfoInputs.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section9WorkingWithFiles\Section9WorkingWithFiles\obj\Debug\netcoreapp2.2\Section9WorkingWithFiles.AssemblyInfo.cs
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section9WorkingWithFiles\Section9WorkingWithFiles\bin\Debug\netcoreapp2.2\Section9WorkingWithFiles.deps.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section9WorkingWithFiles\Section9WorkingWithFiles\bin\Debug\netcoreapp2.2\Section9WorkingWithFiles.runtimeconfig.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section9WorkingWithFiles\Section9WorkingWithFiles\bin\Debug\netcoreapp2.2\Section9WorkingWithFiles.runtimeconfig.dev.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section9WorkingWithFiles\Section9WorkingWithFiles\bin\Debug\netcoreapp2.2\Section9WorkingWithFiles.dll
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section9WorkingWithFiles\Section9WorkingWithFiles\bin\Debug\netcoreapp2.2\Section9WorkingWithFiles.pdb
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section9WorkingWithFiles\Section9WorkingWithFiles\obj\Debug\netcoreapp2.2\Section9WorkingWithFiles.dll
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section9WorkingWithFiles\Section9WorkingWithFiles\obj\Debug\netcoreapp2.2\Section9WorkingWithFiles.pdb

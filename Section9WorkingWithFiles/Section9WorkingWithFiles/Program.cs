@@ -28,11 +28,12 @@ namespace Section9WorkingWithFiles
 
             var path = @"c:\somefile.txt";
 
+            /*
 
             // FILE STATIC METHODS
             // ===================
 
-            File.Copy(@"c:\temp\myfile.jpg", "d:\temp\myfile.txt", true);
+            File.Copy(@"c:\temp\myfile.jpg", @"d:\temp\myfile.jpg", true);
             File.Delete(path);
 
             if (File.Exists(path))
@@ -57,7 +58,34 @@ namespace Section9WorkingWithFiles
             }
 
 
-            
+            */
+
+            Console.Clear();
+
+            // DIRECTORY AND DIRECTORYINFO
+            // ===========================
+
+            var path2 = @"c:\Users\cecd304\me\code\udemy";
+
+            Directory.CreateDirectory(path2);
+
+            // This will check this directory and all its subdirectories for pdf files.
+            var files = Directory.GetFiles(path2, "*.pdf", SearchOption.AllDirectories);
+            foreach (var file in files)
+                Console.WriteLine(file);
+
+            var directories = Directory.GetDirectories(path2, "*.API", SearchOption.AllDirectories);
+            foreach (var directory in directories)
+                Console.WriteLine(directory);
+
+            Directory.Exists(path2);
+
+
+            // Same as the above but as instances.
+            var dirInfo = new DirectoryInfo(path2);
+            dirInfo.GetFiles();
+            dirInfo.GetDirectories();
+
 
         }
     }
