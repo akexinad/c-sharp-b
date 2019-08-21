@@ -87,6 +87,25 @@ namespace Section9WorkingWithFiles
             dirInfo.GetDirectories();
 
 
+
+
+            // PATH CLASS
+            // ==========
+
+            var path3 = @"C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section1To3\CSharpB.sln";
+
+            var dotIndex = path3.IndexOf('.');
+            var extension = path3.Substring(dotIndex);
+
+            // Instead of doing the above, we can just call the GetExtension method.
+            var getExtension = Path.GetExtension(path3);
+
+            // Other useful methods.
+            Console.WriteLine($"Extension: { getExtension }");
+            Console.WriteLine($"File Name: { Path.GetFileName(path3) }");
+            Console.WriteLine($"File Name W/O extension: { Path.GetFileNameWithoutExtension(path3) }");
+            Console.WriteLine($"File Name: { Path.GetDirectoryName(path3) }");
+
         }
     }
 }
