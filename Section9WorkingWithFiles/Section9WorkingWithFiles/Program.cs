@@ -28,7 +28,7 @@ namespace Section9WorkingWithFiles
 
             var path = @"c:\somefile.txt";
 
-            /*
+            
 
             // FILE STATIC METHODS
             // ===================
@@ -58,7 +58,7 @@ namespace Section9WorkingWithFiles
             }
 
 
-            */
+            
 
             Console.Clear();
 

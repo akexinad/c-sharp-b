@@ -1,0 +1,11 @@
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section10Debugging\Section10Debugging\bin\Debug\netcoreapp2.2\Section10Debugging.deps.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section10Debugging\Section10Debugging\bin\Debug\netcoreapp2.2\Section10Debugging.runtimeconfig.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section10Debugging\Section10Debugging\bin\Debug\netcoreapp2.2\Section10Debugging.runtimeconfig.dev.json
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section10Debugging\Section10Debugging\bin\Debug\netcoreapp2.2\Section10Debugging.dll
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section10Debugging\Section10Debugging\bin\Debug\netcoreapp2.2\Section10Debugging.pdb
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section10Debugging\Section10Debugging\obj\Debug\netcoreapp2.2\Section10Debugging.csprojAssemblyReference.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section10Debugging\Section10Debugging\obj\Debug\netcoreapp2.2\Section10Debugging.csproj.CoreCompileInputs.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section10Debugging\Section10Debugging\obj\Debug\netcoreapp2.2\Section10Debugging.AssemblyInfoInputs.cache
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section10Debugging\Section10Debugging\obj\Debug\netcoreapp2.2\Section10Debugging.AssemblyInfo.cs
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section10Debugging\Section10Debugging\obj\Debug\netcoreapp2.2\Section10Debugging.dll
+C:\Users\cecd304\me\code\udemy\mosh\c-sharp-b\Section10Debugging\Section10Debugging\obj\Debug\netcoreapp2.2\Section10Debugging.pdb
