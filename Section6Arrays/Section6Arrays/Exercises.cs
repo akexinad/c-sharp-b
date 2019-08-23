@@ -80,16 +80,43 @@ namespace Section6Arrays
 
         public static void ExerciseFour()
         {
+            /*
+            * Write a program and ask the user to continuously enter a number or type "Quit" to exit.
+            * The list of numbers may include duplicates.Display the unique numbers that the user has entered.
+            */
+             
             var numbers = new List<int>();
+            var uniques = new List<int>();
 
             while (true)
             {
                 Console.Write("Enter a number or type QUIT to exit: ");
+                var input = Console.ReadLine();
 
-                var item = numbers[numbers.Count];
+                if (input == "quit" || input == "QUIT")
+                    break;
 
+                var number = Convert.ToInt32(input);
+
+                numbers.Add(number);
             }
 
+            
+
+            for (var i = 0; i < numbers.Count; i++)
+            {
+                var numToCompare = numbers[i];
+
+                //numbers.Remove(numToCompare);
+
+                if (!uniques.Contains(numToCompare))
+                    uniques.Add(numToCompare);
+            }
+
+            foreach (var num in uniques)
+            {
+                Console.WriteLine(num);
+            }
         }
     }
 }

@@ -113,8 +113,8 @@ namespace Section6Arrays
 
             //Exercises.ExerciseOne();
             //Exercises.ExerciseTwo();
-            Exercises.ExerciseThree();
-
+            //Exercises.ExerciseThree();
+            Exercises.ExerciseFour();
         }
     }
 }
